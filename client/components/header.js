@@ -21,7 +21,7 @@ const Header = () => {
           className="font-semibold text-xl tracking-tight"
           onClick={() => toggle(!toggled)}
         >
-          Tailwind CSS
+          <a href="https://www.google.com/">Tailwind CSS</a>
         </button>
       </div>
       {toggled && (
